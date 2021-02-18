@@ -1,0 +1,10 @@
+<li>
+	{{burger_name}}
+	<br>
+
+	<button class="change-status" data-id="{{id}}" data-newstatus="{{toeat}}">
+		{{#if toeat}}Devour It!{{else}}Move to Uneaten{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">Throw it Away</button>
+</li>
