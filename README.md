@@ -1,4 +1,5 @@
 [![GitHub license](https://img.shields.io/badge/license-Apache2.0-blue.svg)]
+
 # Burger Logger
  
 ## Description 
