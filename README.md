@@ -23,13 +23,15 @@ MySQL, Node, Express, Handlebars
 
 ## Usage 
 
+![] (Burger-Logger.gif)
+
 
 
 
 
 ## Contribution 
 
- none
+I referred to and used a good amount of code from the GW Bootcamp activities folder.  In particular i used Activity 17 from week 13.  
 
 ## Tests 
 
