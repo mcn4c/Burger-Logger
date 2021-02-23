@@ -3,6 +3,7 @@ const express = require('express');
 const routes = require('./controllers/burgers_controller');
 // Set Handlebars.
 const exphbs = require('express-handlebars');
+const path = require('path');
 
 const PORT = process.env.PORT || 8080;
 
@@ -16,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 //if it is an object, i'm gonna turn it into JSON (2nd app.use)
 app.use(express.json());
 
+app.set('views', path.join(__dirname, './views'))
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
