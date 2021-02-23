@@ -17,8 +17,11 @@ app.use(express.urlencoded({ extended: true }));
 //if it is an object, i'm gonna turn it into JSON (2nd app.use)
 app.use(express.json());
 
+app.engine('handlebars', exphbs({ layoutsDir: path.join(__dirname, "views/Layouts"), partialsDir: path.join(__dirname, "views/partials"), defaultLayout: 'main', 
+
+ }));
+
 app.set('views', path.join(__dirname, './views'))
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 //makes it so frontend and backend always have to pass through routes
