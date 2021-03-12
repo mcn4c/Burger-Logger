@@ -23,7 +23,8 @@ MySQL, Node, Express, Handlebars
 
 ## Usage 
 
-![] (Burger-Logger.gif)
+Follow link to deployed website:
+https://fierce-lowlands-95749.herokuapp.com/
 
 
 
